@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-EFFS_Login">
+              <span class="suite-name border-failed">EFFS Login</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-EFFS_Login">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-EFFS_Login">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-EFFS_Login">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-EFFS_Login">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-EFFS_Login">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-EFFS_Login">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-EFFS_Login">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EFFS_Login" class="hide-methods failed suite-EFFS_Login"> (hide)</a> <!-- hide-methods failed suite-EFFS_Login -->
+                      <a href="#" panel-name="suite-EFFS_Login" class="show-methods failed suite-EFFS_Login"> (show)</a> <!-- show-methods failed suite-EFFS_Login -->
+                    </span>
+                    <div class="method-list-content failed suite-EFFS_Login">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.KnoxLoginTest" hash-for-method="fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty)">fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.KnoxLoginTest" hash-for-method="fn_KnoxIDTest(, , Enter your id firs)">fn_KnoxIDTest(, , Enter your id firs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EFFS_Login -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EFFS_Login" class="hide-methods passed suite-EFFS_Login"> (hide)</a> <!-- hide-methods passed suite-EFFS_Login -->
+                      <a href="#" panel-name="suite-EFFS_Login" class="show-methods passed suite-EFFS_Login"> (show)</a> <!-- show-methods passed suite-EFFS_Login -->
+                    </span>
+                    <div class="method-list-content passed suite-EFFS_Login">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.KnoxLoginTest" hash-for-method="fn_KnoxIDTest(ioiioioio, , Id does not exist.)">fn_KnoxIDTest(ioiioioio, , Id does not exist.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.KnoxLoginTest" hash-for-method="fn_KnoxIDTest(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.)">fn_KnoxIDTest(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.KnoxLoginTest" hash-for-method="fn_KnoxIDTest(uiuiui, , Id does not exist.)">fn_KnoxIDTest(uiuiui, , Id does not exist.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EFFS_Login" title="testcases.AppPermissionTest" hash-for-method="fn_Permissiontest">fn_Permissiontest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EFFS_Login -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EFFS_Login" class="panel EFFS_Login">
+          <div class="suite-EFFS_Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.KnoxLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty)">
+                  </a> <!-- fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty) -->
+                  <span class="method-name">fn_KnoxIDTest</span>
+                  <span class="parameters">(Mobiletestuser02@samsung.com, 1111, Screen lock ty)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Employee ID Is Not Correct expected [Screen lock ty] but found [Screen lock type]
+	at testcases.KnoxLoginTest.fn_KnoxIDTest(KnoxLoginTest.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_KnoxIDTest(, , Enter your id firs)">
+                  </a> <!-- fn_KnoxIDTest(, , Enter your id firs) -->
+                  <span class="method-name">fn_KnoxIDTest</span>
+                  <span class="parameters">(, , Enter your id firs)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Employee ID Is Not Correct expected [Enter your id firs] but found [Enter your id first.]
+	at testcases.KnoxLoginTest.fn_KnoxIDTest(KnoxLoginTest.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EFFS_Login-class-failed -->
+          <div class="suite-EFFS_Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AppPermissionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_Permissiontest">
+                  </a> <!-- fn_Permissiontest -->
+                  <span class="method-name">fn_Permissiontest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EFFS_Login-class-passed -->
+          <div class="suite-EFFS_Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.KnoxLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_KnoxIDTest(ioiioioio, , Id does not exist.)">
+                  </a> <!-- fn_KnoxIDTest(ioiioioio, , Id does not exist.) -->
+                  <span class="method-name">fn_KnoxIDTest</span>
+                  <span class="parameters">(ioiioioio, , Id does not exist.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_KnoxIDTest(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.)">
+                  </a> <!-- fn_KnoxIDTest(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.) -->
+                  <span class="method-name">fn_KnoxIDTest</span>
+                  <span class="parameters">(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_KnoxIDTest(uiuiui, , Id does not exist.)">
+                  </a> <!-- fn_KnoxIDTest(uiuiui, , Id does not exist.) -->
+                  <span class="method-name">fn_KnoxIDTest</span>
+                  <span class="parameters">(uiuiui, , Id does not exist.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EFFS_Login-class-passed -->
+        </div> <!-- panel EFFS_Login -->
+        <div panel-name="test-xml-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/vikas/eclipse-workspace/org/src/test/resources/runner/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;EFFS Login&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.AppPermissionTest&quot;/&gt;
+      &lt;class name=&quot;testcases.KnoxLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+&lt;/suite&gt; &lt;!-- EFFS Login --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EFFS Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EFFS Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EFFS Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EFFS_Login');
+function tableData_EFFS_Login() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fn_KnoxIDTest')
+data.setCell(0, 2, 'testcases.KnoxLoginTest')
+data.setCell(0, 3, 25678);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fn_KnoxIDTest')
+data.setCell(1, 2, 'testcases.KnoxLoginTest')
+data.setCell(1, 3, 20819);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fn_KnoxIDTest')
+data.setCell(2, 2, 'testcases.KnoxLoginTest')
+data.setCell(2, 3, 7617);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fn_KnoxIDTest')
+data.setCell(3, 2, 'testcases.KnoxLoginTest')
+data.setCell(3, 3, 6653);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fn_KnoxIDTest')
+data.setCell(4, 2, 'testcases.KnoxLoginTest')
+data.setCell(4, 3, 4847);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fn_Permissiontest')
+data.setCell(5, 2, 'testcases.AppPermissionTest')
+data.setCell(5, 3, 3336);
+window.suiteTableData['EFFS_Login']= { tableData: data, tableDiv: 'times-div-EFFS_Login'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-EFFS_Login">
+              </div> <!-- times-div-EFFS_Login -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EFFS Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Oct_23_14_44_19_IST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Oct_23_14_44_19_IST_2019.jpg><img src=Wed_Oct_23_14_44_19_IST_2019.jpg height=400 width=800></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_KnoxIDTest(, , Enter your id firs)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Oct_23_14_43_50_IST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Wed_Oct_23_14_43_50_IST_2019.jpg><img src=Wed_Oct_23_14_43_50_IST_2019.jpg height=400 width=800></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.KnoxLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EFFS_Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AppPermissionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">fn_Permissiontest</span>
+                <span class="method-start">16951 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.KnoxLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fn_KnoxIDTest(Mobiletestuser02@samsung.com, 111, Invalid password. Account will lock after 10 invalid attempts.)</span>
+                <span class="method-start">20530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fn_KnoxIDTest(uiuiui, , Id does not exist.)</span>
+                <span class="method-start">46239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fn_KnoxIDTest(, , Enter your id firs)</span>
+                <span class="method-start">53880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fn_KnoxIDTest(ioiioioio, , Id does not exist.)</span>
+                <span class="method-start">59632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fn_KnoxIDTest(Mobiletestuser02@samsung.com, 1111, Screen lock ty)</span>
+                <span class="method-start">66311 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

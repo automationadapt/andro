@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EFFS Login]">
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="testcases.AppPermissionTest">
+        <methods>
+          <include name="fn_Permissiontest"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- testcases.AppPermissionTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [EFFS Login] -->

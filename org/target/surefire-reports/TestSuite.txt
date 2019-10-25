@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 88.899 sec <<< FAILURE! - in TestSuite
+fn_KnoxIDTest(testcases.KnoxLoginTest)  Time elapsed: 4.853 sec  <<< FAILURE!
+java.lang.AssertionError: Employee ID Is Not Correct expected [Enter your id firs] but found [Enter your id first.]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at testcases.KnoxLoginTest.fn_KnoxIDTest(KnoxLoginTest.java:22)
+
+fn_KnoxIDTest(testcases.KnoxLoginTest)  Time elapsed: 20.82 sec  <<< FAILURE!
+java.lang.AssertionError: Employee ID Is Not Correct expected [Screen lock ty] but found [Screen lock type]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at testcases.KnoxLoginTest.fn_KnoxIDTest(KnoxLoginTest.java:22)
+
